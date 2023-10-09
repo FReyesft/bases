@@ -3,9 +3,14 @@
 
 <div class="row">
   <div class="col">
-    <app-dbz-list [characterList]="characters"></app-dbz-list>
+    <app-dbz-list
+      (onDelete)="onDeleteCharacter($event)"
+      [characterList]="characters"
+    ></app-dbz-list>
   </div>
   <div class="col">
-    <app-add-caracter-form></app-add-caracter-form>
+    <app-add-caracter-form
+      (onNewCharacter)="onNewCharacter($event)"
+    ></app-add-caracter-form>
   </div>
 </div>
