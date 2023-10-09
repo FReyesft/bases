@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-dbz-main-page',
   templateUrl: './main-page.component.html'
 })
 
-export class DbzComponent implements OnInit {
+export class DbzComponent {
   constructor() { }
 
-  ngOnInit() { }
+
 }
