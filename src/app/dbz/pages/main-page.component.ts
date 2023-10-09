@@ -13,6 +13,9 @@ export class DbzComponent {
     }, {
       name: 'Vegeta',
       power: 7000
+    }, {
+      name: 'Trunks',
+      power: 8000
     }
 
   ];

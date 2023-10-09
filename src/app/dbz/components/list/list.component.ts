@@ -8,15 +8,8 @@ import { Character } from '../../interfaces/character.interface';
 })
 export class ListComponent implements OnInit {
   @Input()
-  public characterList: Character[] = [
-    {
-      name: 'Trunk',
-      power: 100
-    }
-  ]
-
+  public characterList: Character[] = []
   constructor() { }
-
   ngOnInit() {
   }
 
